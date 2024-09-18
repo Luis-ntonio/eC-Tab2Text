@@ -1,8 +1,6 @@
 import json
-import matplotlib.pyplot as plt
 import pandas as pd
 import datasets
-from sklearn.model_selection import train_test_split
 from itertools import permutations 
 
 with open('./products/products_formatted.json', encoding='utf-8') as f:
@@ -17,12 +15,14 @@ for key in data:
     for props in props_:
         reviews = {}
         tmp = {}
+        tmp_keys = []
         for prop in props:
             tmp[prop] = {"type": "string"}
             reviews[prop] = data[key]["reviews"][prop]
-        Text = f"""Given following json that contains specifications of a product , generate a review of the key characteristics with json format. Follow the structure on Keys to write the Output:
+            tmp_keys.append(prop)
+        Text = f"""Given following json that contains specifications of a product, generate a review of the key characteristics with json format. Follow the values on {{Keys}} to write the Output:
 ### Product: {data[key]["full_specifications"]}
-### Keys: {data[key]["keys_specifications"]}
+### Keys: {tmp_keys}
 ### Output: {reviews}"""
         props = tmp
         prompt = f"""{Text}"""
