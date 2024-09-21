@@ -17,6 +17,7 @@ def clean_reviews(tmp_reviews: dict):
         tmp_reviews[k_] = cont.split("\n")[0]
         if k_ in ["Design and Disp\ufefflay", "Display and Design"] and tmp_reviews[k_] != "":
             tmp_reviews["Design and Display"] = tmp_reviews[k_]
+            tmp_reviews[k_] = None
 
     return tmp_reviews
 
