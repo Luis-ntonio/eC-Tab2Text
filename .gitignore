@@ -9,6 +9,8 @@ StructLM-7B-luis/
 StructLM-7B-luis_tokenizer/
 Mistral-7B-Instruct-v0.3-luis_tokenizer/
 Mistral-7B-Instruct-v0.3-luis/
+Meta-Llama-3-8B-luis/
+Meta-Llama-3-8B-luis_tokenizer/
 # C extensions
 *.so
 
