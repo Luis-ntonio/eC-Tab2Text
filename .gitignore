@@ -13,6 +13,8 @@ Llama-2-7b-chat-hf-luis/
 Llama-2-7b-chat-hf-luis_tokenizer/
 Llama-2-7b-hf-luis_tokenizer/
 Llama-2-7b-hf-luis/
+qtsumm/
+tokenizers/
 # C extensions
 *.so
 
