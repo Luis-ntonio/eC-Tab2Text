@@ -1,0 +1,176 @@
+{
+    "https://pricebaba.com/mobile/xiaomi-redmi-note-11": {
+        "keys_specifications": {
+            "Model": "Xiaomi Redmi Note 11",
+            "Operating System": "Android v11",
+            "Display": [
+                "6.6 inches (16.76 cm) bezel-less display with punch-hole display"
+            ],
+            "Design": [
+                "Splashproof, IP53"
+            ],
+            "Performance": [
+                "MediaTek Dimensity 810 MT6833 Octa core Processor",
+                "4 GB RAM",
+                "128 GB internal storage"
+            ],
+            "Camera": [
+                "50 + 8 MP Dual Rear  s",
+                "16 MP Front  Camera"
+            ],
+            "Battery": [
+                "5000 mAh battery with Fast Charging, charges upto 100% in 62 minutes"
+            ],
+            "Connectivity": [
+                "Dual SIM Nano + Nano with VoLTE support",
+                "SIM1 Supports 5G, 4G, 3G",
+                "SIM2 Supports 4G, 3G"
+            ],
+            "Special Features": [
+                "Side Fingerprint Sensor",
+                "Face Unlock",
+                "3.5 mm headphone jack present"
+            ]
+        },
+        "full_specifications": {
+            "Model Name": "Xiaomi Redmi Note 11",
+            "General": {
+                "Operating System": "Android 11",
+                "Custom UI": "MIUI",
+                "Dimensions": "163.5mm x 75.7mm x 8.7mm",
+                "Weight": "195g"
+            },
+            "Display & Design": {
+                "Size": "6.6 inches (16.76 cm)",
+                "Resolution": "1080 x 2400 pixels",
+                "Pixel Density": "399ppi",
+                "Touch Screen": "Yes, Capacitive Touchscreen, Multi-touch",
+                "Type": "IPS LCD",
+                "Screen To Body Ratio": "",
+                "Aspect Ratio": "20 9",
+                "Refresh Rate": "90Hz",
+                "Screen Protection": "",
+                "Design": "Punch-hole display",
+                "Colour Options": [
+                    "Mysterious Black",
+                    "Milky Way Blue",
+                    "Mint Green"
+                ],
+                "Water Resistance": "IP53, Splash proof"
+            },
+            "Hardware": {
+                "Chipset": "MediaTek Dimensity 810 MT6833",
+                "CPU": [
+                    " 2 x 2.4GHz Cortex A76",
+                    "6 x 2GHz Cortex A55"
+                ],
+                "GPU": "Mali-G57 MC2",
+                "Architecture": "64-bit",
+                "RAM": "4 GB",
+                "Internal Storage": "128 GB",
+                "MicroSD Card Slot": ""
+            },
+            "Main Camera": {
+                "Number of Cameras": "Dual",
+                "Resolution": [
+                    " 50 MP Wide Angle main camera",
+                    "Digital Zoom",
+                    "8 MP ultra-wide camera"
+                ],
+                "Flash": "LED Flash",
+                "Video": [],
+                "Features": [
+                    "Auto Flash",
+                    "Auto Focus",
+                    "Bokeh Effect",
+                    "Continuous Shooting",
+                    "Exposure compensation",
+                    "Face detection",
+                    "Geo tagging",
+                    "High Dynamic Range mode (HDR)",
+                    "ISO control",
+                    "Touch to focus",
+                    "White balance presets"
+                ]
+            },
+            "Front Camera": {
+                "Number of Cameras": "Single",
+                "Resolution": "16 MP main camera",
+                "Flash": "",
+                "Video": [
+                    "1920x1080@30fps"
+                ],
+                "Features": [
+                    ","
+                ]
+            },
+            "Battery": {
+                "Capacity": "5000 mAh",
+                "Type": "Li-Polymer",
+                "Wireless Charging": "",
+                "Fast Charging": "Yes, 100 % in 62 minutes"
+            },
+            "Security & Sensors": {
+                "Fingerprint Sensor": "Yes, Side",
+                "Sensors": [
+                    "Light sensor",
+                    "Proximity sensor",
+                    "Accelerometer",
+                    "Compass",
+                    "Gyroscope"
+                ]
+            },
+            "Connectivity & Audio": {
+                "Network": [
+                    "2G",
+                    "3G",
+                    "4G (compatible with India)",
+                    "VoLTE",
+                    "5G"
+                ],
+                "SIM 1 Bands": {
+                    "4G Bands": {
+                        "TD-LTE": [
+                            "2300(band 40)"
+                        ],
+                        "FD-LTE": [
+                            "1800(band 3)"
+                        ]
+                    },
+                    "3G Bands": [
+                        "UMTS 1900 ",
+                        "2100 ",
+                        "850 ",
+                        "900 MHz"
+                    ],
+                    "2G Bands": [
+                        "GSM 1800 ",
+                        "1900 ",
+                        "850 ",
+                        "900 MHz"
+                    ],
+                    "GPRS": " Available",
+                    "EDGE": " Available"
+                },
+                "SIM card slots": "Dual SIM",
+                "SIM card type": "Nano + Nano",
+                "Charging Port": "USB Type-C",
+                "USB OTG": "",
+                "Wi-Fi": "Wi-Fi 802.11, ac/b/g/n/n 5GHz, Mobile Hotspot",
+                "Wi-Fi Calling": "",
+                "Bluetooth": "Bluetooth 5.1",
+                "NFC": "",
+                "GPS": "Yes with A-GPS",
+                "FM Radio": "",
+                "Loudspeaker": "Yes",
+                "3.5mm headphone jack": "Yes"
+            }
+        },
+        "reviews": {
+            "Cameras": "The Redmi Note 11 is said to come with a dual-camera system on the back with a powerful 50MP primary sensor, an 8MP sensor, and an LED flash. On the front, The device will probably get a 16MP selfie cam. Auto Flash, Auto Focus, Bokeh Effect, Continuos Shooting, Exposure compensation, Face detection, Geo-tagging, High Dynamic Range mode (HDR), ISO control, Touch to focus, White balance presets are some of the many features that the camera is likely to support.",
+            "Battery and Performance": "The Redmi Note 11 is said to be embedded with a MediaTek Dimensity 810 MT6833 processor and a Mali-G57 MC2GPU. The RAM and internal memory of the device could possibly be 4GB and 128GB respectively. The device couldn't support memory cards. A large 5000mAh Li-Polymer battery could come with the device. It is said to have fast charging too.",
+            "Design and Display": "The Redmi Note 11 could feature a 6.6 inch IPS LCDdisplay with a resolution of 1080 x 2400 pixelsand a pixel density of 399ppi. The display is said to come with a Punch-hole that has less bezels, a screen-to-body ratio of 84.97%, and an aspect ratio of 209.",
+            "Software and Connectivity": "Redmi Note 11 is likely to come with Android 11 out of the box. The smartphone could get connectivity options like 5G, dual sim VoLTE(Nano + Nano), Wi-Fi 802.11, ac/b/g/n//n 5GHz, GPS, and Bluetooth 5.1. In terms of ports selection, the smartphone will probably be getting a 3.5mm headphone jack, a USB Type-C, and a fingerprint scanner present on the side of the device."
+        }
+    }
+}

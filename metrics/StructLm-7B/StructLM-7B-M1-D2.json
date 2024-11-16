@@ -1,0 +1,41 @@
+{
+    "bleu": {
+        "Total": [
+            0.1,
+            1026
+        ]
+    },
+    "rouge1": {
+        "Total": [
+            0.31,
+            1026
+        ]
+    },
+    "rouge2": {
+        "Total": [
+            0.14,
+            1026
+        ]
+    },
+    "rougeL": {
+        "Total": [
+            0.24,
+            1026
+        ]
+    },
+    "rougeLsum": {
+        "Total": [
+            0.24,
+            1026
+        ]
+    },
+    "meteor": {
+        "Total": [
+            0.18,
+            1026
+        ]
+    },
+    "correctness": 58.7109375,
+    "faithfullness": 56.6015625,
+    "fluency": 58.26171875
+}

@@ -1,0 +1,233 @@
+{
+    "bleu": {
+        "Design and Display": [
+            38.75,
+            1302
+        ],
+        "Battery and Connectivity": [
+            21.25,
+            341
+        ],
+        "Cameras": [
+            31.96,
+            984
+        ],
+        "Performance and Battery": [
+            33.73,
+            220
+        ],
+        "Software and Connectivity": [
+            38.96,
+            895
+        ],
+        "Battery and Performance": [
+            36.79,
+            704
+        ],
+        "Camera and Storage": [
+            30.14,
+            280
+        ],
+        "Software and Platform": [
+            16.89,
+            65
+        ],
+        "Total": [
+            31.06,
+            8
+        ]
+    },
+    "rouge1": {
+        "Design and Display": [
+            57.26,
+            1302
+        ],
+        "Battery and Connectivity": [
+            38.8,
+            341
+        ],
+        "Cameras": [
+            52.58,
+            984
+        ],
+        "Performance and Battery": [
+            52.89,
+            220
+        ],
+        "Software and Connectivity": [
+            56.97,
+            895
+        ],
+        "Battery and Performance": [
+            53.63,
+            704
+        ],
+        "Camera and Storage": [
+            52.33,
+            280
+        ],
+        "Software and Platform": [
+            30.93,
+            65
+        ],
+        "Total": [
+            49.42,
+            8
+        ]
+    },
+    "rouge2": {
+        "Design and Display": [
+            35.65,
+            1302
+        ],
+        "Battery and Connectivity": [
+            14.01,
+            341
+        ],
+        "Cameras": [
+            30.7,
+            984
+        ],
+        "Performance and Battery": [
+            27.97,
+            220
+        ],
+        "Software and Connectivity": [
+            37.05,
+            895
+        ],
+        "Battery and Performance": [
+            29.21,
+            704
+        ],
+        "Camera and Storage": [
+            29.26,
+            280
+        ],
+        "Software and Platform": [
+            14.5,
+            65
+        ],
+        "Total": [
+            27.29,
+            8
+        ]
+    },
+    "rougeL": {
+        "Design and Display": [
+            48.24,
+            1302
+        ],
+        "Battery and Connectivity": [
+            29.36,
+            341
+        ],
+        "Cameras": [
+            43.26,
+            984
+        ],
+        "Performance and Battery": [
+            43.16,
+            220
+        ],
+        "Software and Connectivity": [
+            48.97,
+            895
+        ],
+        "Battery and Performance": [
+            43.88,
+            704
+        ],
+        "Camera and Storage": [
+            41.93,
+            280
+        ],
+        "Software and Platform": [
+            25.85,
+            65
+        ],
+        "Total": [
+            40.58,
+            8
+        ]
+    },
+    "rougeLsum": {
+        "Design and Display": [
+            48.24,
+            1302
+        ],
+        "Battery and Connectivity": [
+            29.36,
+            341
+        ],
+        "Cameras": [
+            43.26,
+            984
+        ],
+        "Performance and Battery": [
+            43.16,
+            220
+        ],
+        "Software and Connectivity": [
+            48.97,
+            895
+        ],
+        "Battery and Performance": [
+            43.88,
+            704
+        ],
+        "Camera and Storage": [
+            41.93,
+            280
+        ],
+        "Software and Platform": [
+            25.85,
+            65
+        ],
+        "Total": [
+            40.58,
+            8
+        ]
+    },
+    "meteor": {
+        "Design and Display": [
+            49.93,
+            1302
+        ],
+        "Battery and Connectivity": [
+            30.88,
+            341
+        ],
+        "Cameras": [
+            42.59,
+            984
+        ],
+        "Performance and Battery": [
+            45.33,
+            220
+        ],
+        "Software and Connectivity": [
+            47.99,
+            895
+        ],
+        "Battery and Performance": [
+            47.99,
+            704
+        ],
+        "Camera and Storage": [
+            42.71,
+            280
+        ],
+        "Software and Platform": [
+            31.02,
+            65
+        ],
+        "Total": [
+            42.3,
+            8
+        ]
+    },
+    "correctness": 69.70065075921909,
+    "faithfullness": 72.46640658864325,
+    "fluency": 69.9348675640469
+}
