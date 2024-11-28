@@ -1,0 +1,477 @@
+{
+    "Prompt": [
+        "Given following json that contains specifications of a product, generate a review of the key characteristics with json format. Follow the values on {Keys} to write the Output:\n### Product: {'Model Name': 'LG G Flex 2 16GB', 'General': {'Operating System': 'Android 5.0 (Lollipop)', 'Custom UI': '', 'Dimensions': '149.1mm x 75.3mm x 7.1mm', 'Weight': '152g'}, 'Display & Design': {'Size': '5.5 inches (13.97 cm)', 'Resolution': '1080 x 1920 pixels', 'Pixel Density': '401ppi', 'Touch Screen': 'Yes, Capacitive Touchscreen, Multi-touch', 'Type': 'P-OLED', 'Screen To Body Ratio': '', 'Aspect Ratio': '', 'Refresh Rate': '', 'Screen Protection': 'Corning Gorilla Glass v3', 'Design': '', 'Colour Options': ['Red', 'Silver'], 'Water Resistance': ''}, 'Hardware': {'Chipset': 'Qualcomm Snapdragon 810 MSM8994', 'CPU': [' 4 x 2GHz Cortex A53', '4 x 1.55GHz'], 'GPU': 'Adreno 430', 'Architecture': '64-bit', 'RAM': '2 GB', 'Internal Storage': '16 GB', 'MicroSD Card Slot': 'Up to 2 TB'}, 'Main Camera': {'Number of Cameras': 'Single', 'Resolution': [' 13 MP f/2.4 main camera', 'OIS, 8x Digital Zoom'], 'Flash': 'Dual LED Flash', 'Video': [' 3840x2160@30fps, 1920x1080@60fps'], 'Features': ['Auto Focus', 'Face detection', 'Geo tagging', 'High Dynamic Range mode (HDR)', 'Laser AF', 'Optical Image Stabilization Plus', 'Simultaneous HD video and image recording']}, 'Front Camera': {'Number of Cameras': 'Single', 'Resolution': '2.1 MP main camera', 'Flash': '', 'Video': ['1920x1080@30fps'], 'Features': [',']}, 'Battery': {'Capacity': '3000 mAh', 'Type': 'Li-Polymer', 'Wireless Charging': '', 'Fast Charging': 'Yes, Quick, v2.0'}, 'Security & Sensors': {'Fingerprint Sensor': 'NA', 'Sensors': ['Light sensor', 'Proximity sensor', 'Accelerometer', 'Compass', 'Gyroscope']}, 'Connectivity & Audio': {'Network': ['2G', '3G'], 'SIM 1 Bands': {'4G Bands': {'TD-LTE': ['/'], 'FD-LTE': ['/']}, '3G Bands': ['UMTS 1900 ', '2100 ', '850 ', '900 MHz'], '2G Bands': ['GSM 1800 ', '1900 ', '850 ', '900 MHz', '3G Speed HSDPA 42.2 Mbit/s \u2193, HSUPA 21.1 Mbit/s \u2191'], 'GPRS': ' Available', 'EDGE': ' Available'}, 'SIM card slots': 'Single SIM', 'SIM card type': 'Micro', 'Charging Port': 'microUSB 2.0', 'USB OTG': '', 'Wi-Fi': 'Wi-Fi 802.11, a/ac/b/g/n,  Direct, Mobile Hotspot', 'Wi-Fi Calling': '', 'Bluetooth': 'Bluetooth 4.1', 'NFC': 'Yes', 'GPS': 'Yes with A-GPS, Glonass', 'FM Radio': 'Yes', 'Loudspeaker': 'Yes', '3.5mm headphone jack': 'Yes'}}\n### Keys: ['Design and Display', 'Battery and Connectivity']\n",
+        "Given following json that contains specifications of a product, generate a review of the key characteristics with json format. Follow the values on {Keys} to write the Output:\n### Product: {'Model Name': 'vivo X70 Pro Plus', 'General': {'Operating System': 'Android 11', 'Custom UI': 'Funtouch OS', 'Dimensions': '164.5mm x 75.2mm x 8.8mm', 'Weight': '213g'}, 'Display & Design': {'Size': '6.78 inches (17.22 cm)', 'Resolution': '1440 x 3200 pixels', 'Pixel Density': '518ppi', 'Touch Screen': 'Yes, Capacitive Touchscreen, Multi-touch', 'Type': 'AMOLED, Curved Display, HDR 10+', 'Screen To Body Ratio': '92.2 %', 'Aspect Ratio': '20 9', 'Refresh Rate': '120Hz', 'Screen Protection': '', 'Design': 'Punch-hole display', 'Colour Options': ['Enigma Black'], 'Water Resistance': 'IP68, Water resistant (up to 30 minutes in a depth of 1.5 meter)'}, 'Hardware': {'Chipset': 'Qualcomm Snapdragon 888 Plus', 'CPU': [' 1 x 3GHz Kryo 680', '3 x 2.42GHz Kryo 680', '4 x 1.8GHz Kryo 680'], 'GPU': 'Adreno 660', 'Architecture': '64-bit', 'RAM': '12 GB', 'Internal Storage': '256 GB', 'MicroSD Card Slot': 'No'}, 'Main Camera': {'Number of Cameras': 'Quad', 'Resolution': [' 50 MP f/1.57 Wide Angle main camera', 'PDAF, OIS, Digital Zoom', '48 MP f/2.2 ultra-wide camera', '12 MP f/1.6 camera', 'Optical Zoom', '8 MP f/3.4 camera', '60x Digital Zoom, 5x Optical Zoom, Periscope'], 'Flash': 'Dual-color LED Flash', 'Video': [' 7680x4320@30fps, 3840x2160@30fps'], 'Features': ['AF Phase Detection', 'Auto Flash', 'Auto Focus', 'Bokeh Effect', 'Continuous Shooting', 'Exposure compensation', 'Face detection', 'Geo tagging', 'High Dynamic Range mode (HDR)', 'ISO control', 'ISOCELL Plus', 'Laser AF', 'Optical image stabilization', 'Time Lapse', 'Touch to focus', 'White balance presets']}, 'Front Camera': {'Number of Cameras': 'Single', 'Resolution': '32 MP f/2.45, Wide Angle main camera', 'Flash': 'Screen flash', 'Video': ['3840x2160@30fps', '1920x1080@30fps'], 'Features': ['Bokeh Effect']}, 'Battery': {'Capacity': '4500 mAh', 'Type': 'Li-ion', 'Wireless Charging': 'Yes', 'Fast Charging': 'Yes, Flash'}, 'Security & Sensors': {'Fingerprint Sensor': 'Yes, On-screen', 'Sensors': ['Light sensor', 'Proximity sensor', 'Accelerometer', 'Compass', 'Gyroscope']}, 'Connectivity & Audio': {'Network': ['2G', '3G', '4G (compatible with India)', 'VoLTE', '5G'], 'SIM 1 Bands': {'4G Bands': {'TD-LTE': ['2600(band 38) ', '2300(band 40) ', '2500(band 41) ', '2100(band 34) ', '1900(band 39)'], 'FD-LTE': ['2100(band 1) ', '1800(band 3) ', '2600(band 7) ', '900(band 8) ', '700(band 28) ', '1900(band 2) ', '1700(band 4) ', '850(band 5) ', '700(band 17) ', '850(band 18) ', '850(band 19) ', '800(band 20) ', '850(band 26)']}, '3G Bands': ['UMTS 1900 ', '2100 ', '850 ', '900 MHz'], '2G Bands': ['GSM 1800 ', '1900 ', '850 ', '900 MHz'], 'GPRS': ' Available', 'EDGE': ' Available'}, 'SIM card slots': 'Dual SIM', 'SIM card type': 'Nano + Nano', 'Charging Port': 'USB Type-C', 'USB OTG': 'Yes', 'Wi-Fi': 'Wi-Fi 802.11, a/ac/b/g/n/n 5GHz, MIMO, Mobile Hotspot', 'Wi-Fi Calling': '', 'Bluetooth': 'Bluetooth 5.2', 'NFC': 'Yes', 'GPS': 'Yes with A-GPS, Glonass', 'FM Radio': 'No', 'Loudspeaker': 'Yes', '3.5mm headphone jack': ''}}\n### Keys: ['Design and Display']\n",
+        "Given following json that contains specifications of a product, generate a review of the key characteristics with json format. Follow the values on {Keys} to write the Output:\n### Product: {'Model Name': 'Coolpad Cool 6', 'General': {'Operating System': 'Android 10 (Q)', 'Custom UI': '', 'Dimensions': '162.4mm x 76.5mm x 9.2mm', 'Weight': '145g'}, 'Display & Design': {'Size': '6.53 inches (16.59 cm)', 'Resolution': '1080 x 2340 pixels', 'Pixel Density': '395ppi', 'Touch Screen': 'Yes, Capacitive Touchscreen', 'Type': 'IPS LCD', 'Screen To Body Ratio': '93.07 %', 'Aspect Ratio': '19.5 9', 'Refresh Rate': '', 'Screen Protection': '', 'Design': '', 'Colour Options': ['Blue', 'Silver'], 'Water Resistance': ''}, 'Hardware': {'Chipset': 'MediaTek Helio P70', 'CPU': [' 4 x 2.1GHz Cortex A73', '4 x 2GHz Cortex A53'], 'GPU': 'Mali-G72 MP3', 'Architecture': '64-bit', 'RAM': '4 GB', 'Internal Storage': '64 GB', 'MicroSD Card Slot': 'Up to 256 GB'}, 'Main Camera': {'Number of Cameras': 'Triple', 'Resolution': [' 48 MP main camera', 'Digital Zoom', '2 MP camera', '2 MP camera'], 'Flash': 'LED Flash', 'Video': [], 'Features': ['Artificial Intelligence', 'Auto Flash', 'Auto Focus', 'Bokeh Effect', 'Continuous Shooting', 'Exposure compensation', 'Face detection', 'Geo tagging', 'High Dynamic Range mode (HDR)', 'ISO control', 'Time Lapse', 'Touch to focus', 'White balance presets']}, 'Front Camera': {'Number of Cameras': 'Single', 'Resolution': '21 MP f/2.0 main camera', 'Flash': '', 'Video': [','], 'Features': ['Artificial Intelligence', 'Bokeh Effect']}, 'Battery': {'Capacity': '4000 mAh', 'Type': 'Li-ion', 'Wireless Charging': '', 'Fast Charging': ''}, 'Security & Sensors': {'Fingerprint Sensor': 'Yes, Rear', 'Sensors': ['Light sensor', 'Proximity sensor', 'Accelerometer']}, 'Connectivity & Audio': {'Network': ['2G', '3G', '4G (compatible with India)', 'VoLTE'], 'SIM 1 Bands': {'4G Bands': {'TD-LTE': ['2300(band 40)'], 'FD-LTE': ['1800(band 3)']}, '3G Bands': ['UMTS 1900 ', '2100 ', '850 ', '900 MHz'], '2G Bands': ['GSM 1800 ', '1900 ', '850 ', '900 MHz'], 'GPRS': ' Available', 'EDGE': ' Available'}, 'SIM card slots': 'Dual SIM', 'SIM card type': 'Nano + Nano (Hybrid)', 'Charging Port': 'USB Type-C', 'USB OTG': 'Yes', 'Wi-Fi': 'Wi-Fi 802.11, b/g/n, Mobile Hotspot', 'Wi-Fi Calling': '', 'Bluetooth': 'Bluetooth 5.0', 'NFC': '', 'GPS': 'Yes with A-GPS', 'FM Radio': '', 'Loudspeaker': 'Yes', '3.5mm headphone jack': 'Yes'}}\n### Keys: ['Cameras', 'Performance and Battery']\n",
+        "Given following json that contains specifications of a product, generate a review of the key characteristics with json format. Follow the values on {Keys} to write the Output:\n### Product: {'Model Name': 'Tecno Spark Go 2020', 'General': {'Operating System': 'Android 10 (Q)', 'Custom UI': 'Android Go', 'Dimensions': '165.6mm x 76.3mm x 9.1mm', 'Weight': '193g'}, 'Display & Design': {'Size': '6.52 inches (16.56 cm)', 'Resolution': '720 x 1600 pixels', 'Pixel Density': '269ppi', 'Touch Screen': 'Yes, Capacitive Touchscreen, Multi-touch', 'Type': 'TFT', 'Screen To Body Ratio': '', 'Aspect Ratio': '20 9', 'Refresh Rate': '', 'Screen Protection': '', 'Design': 'Waterdrop notch display', 'Colour Options': ['Aqua Blue', 'Ice jadeite'], 'Water Resistance': ''}, 'Hardware': {'Chipset': 'MediaTek Helio A20', 'CPU': [' 4 x 2GHz Cortex A53'], 'GPU': 'PowerVR GE8300', 'Architecture': '', 'RAM': '2 GB', 'Internal Storage': '32 GB', 'MicroSD Card Slot': 'Up to 256 GB'}, 'Main Camera': {'Number of Cameras': 'Dual', 'Resolution': [' 13 MP f/1.8 main camera', '4x Digital Zoom', '0.08 MP camera'], 'Flash': 'Dual LED Flash', 'Video': [' 1920x1080@30fps'], 'Features': ['Artificial Intelligence', 'Auto Flash', 'Auto Focus', 'Bokeh Effect', 'Continuous Shooting', 'Exposure compensation', 'Face detection', 'Geo tagging', 'High Dynamic Range mode (HDR)', 'ISO control', 'Touch to focus', 'White balance presets']}, 'Front Camera': {'Number of Cameras': 'Single', 'Resolution': '8 MP f/2.0 main camera', 'Flash': 'LED Flash', 'Video': [','], 'Features': ['Artificial Intelligence', 'Bokeh Effect']}, 'Battery': {'Capacity': '5000 mAh', 'Type': 'Li-ion', 'Wireless Charging': 'No', 'Fast Charging': ''}, 'Security & Sensors': {'Fingerprint Sensor': 'Yes, Rear', 'Sensors': ['Light sensor', 'Proximity sensor', 'Accelerometer']}, 'Connectivity & Audio': {'Network': ['2G', '3G', '4G (compatible with India)', 'VoLTE'], 'SIM 1 Bands': {'4G Bands': {'TD-LTE': ['2600(band 38) ', '2300(band 40) ', '2500(band 41)'], 'FD-LTE': ['2100(band 1) ', '1800(band 3) ', '2600(band 7) ', '900(band 8) ', '850(band 5) ', '800(band 20)']}, '3G Bands': ['UMTS 1900 ', '2100 ', '850 ', '900 MHz'], '2G Bands': ['GSM 1800 ', '1900 ', '850 ', '900 MHz'], 'GPRS': ' Available', 'EDGE': ' Available'}, 'SIM card slots': 'Dual SIM', 'SIM card type': 'Nano + Nano', 'Charging Port': 'microUSB 2.0', 'USB OTG': 'Yes', 'Wi-Fi': 'Wi-Fi 802.11, b/g/n, Mobile Hotspot', 'Wi-Fi Calling': '', 'Bluetooth': 'Bluetooth 4.2', 'NFC': 'No', 'GPS': 'Yes with A-GPS, Glonass', 'FM Radio': 'Yes', 'Loudspeaker': 'Yes', '3.5mm headphone jack': 'Yes'}}\n### Keys: ['Software and Connectivity', 'Design and Display', 'Battery and Performance']\n",
+        "Given following json that contains specifications of a product, generate a review of the key characteristics with json format. Follow the values on {Keys} to write the Output:\n### Product: {'Model Name': 'I KALL K560', 'General': {'Operating System': 'Android 8.1 (Oreo)', 'Custom UI': '', 'Dimensions': '', 'Weight': ''}, 'Display & Design': {'Size': '6.53 inches (16.59 cm)', 'Resolution': '720 x 1560 pixels', 'Pixel Density': '263ppi', 'Touch Screen': 'Yes, Capacitive Touchscreen, Multi-touch', 'Type': 'IPS LCD', 'Screen To Body Ratio': '', 'Aspect Ratio': '', 'Refresh Rate': '', 'Screen Protection': '', 'Design': 'Waterdrop notch display', 'Colour Options': ['Blue', 'Purple'], 'Water Resistance': ''}, 'Hardware': {'Chipset': '', 'CPU': [' 4 x 1.3GHz'], 'GPU': '', 'Architecture': '', 'RAM': '4 GB', 'Internal Storage': '64 GB', 'MicroSD Card Slot': 'Up to 64 GB'}, 'Main Camera': {'Number of Cameras': 'Single', 'Resolution': [' 13 MP main camera', 'Digital Zoom'], 'Flash': 'LED Flash', 'Video': [], 'Features': ['Auto Flash', 'Auto Focus']}, 'Front Camera': {'Number of Cameras': 'Single', 'Resolution': '8 MP main camera', 'Flash': '', 'Video': [','], 'Features': [',']}, 'Battery': {'Capacity': '4000 mAh', 'Type': 'Li-ion', 'Wireless Charging': 'No', 'Fast Charging': 'No'}, 'Security & Sensors': {'Fingerprint Sensor': 'No', 'Sensors': [',']}, 'Connectivity & Audio': {'Network': ['2G', '3G', '4G (compatible with India)', 'VoLTE'], 'SIM 1 Bands': {'4G Bands': {'TD-LTE': ['2300(band 40)'], 'FD-LTE': ['1800(band 3)']}, '3G Bands': ['UMTS 1900 ', '2100 ', '850 ', '900 MHz'], '2G Bands': ['GSM 1800 ', '1900 ', '850 ', '900 MHz'], 'GPRS': ' Available', 'EDGE': ' Available'}, 'SIM card slots': 'Dual SIM', 'SIM card type': '', 'Charging Port': 'microUSB 2.0', 'USB OTG': '', 'Wi-Fi': 'Wi-Fi 802.11, b/g/n, Mobile Hotspot', 'Wi-Fi Calling': '', 'Bluetooth': 'Bluetooth', 'NFC': '', 'GPS': 'Yes with A-GPS', 'FM Radio': '', 'Loudspeaker': 'Yes', '3.5mm headphone jack': 'Yes'}}\n### Keys: ['Cameras', 'Battery and Performance', 'Design and Display']\n",
+        "Given following json that contains specifications of a product, generate a review of the key characteristics with json format. Follow the values on {Keys} to write the Output:\n### Product: {'Model Name': 'Samsung Galaxy A03', 'General': {'Operating System': 'Android 11', 'Custom UI': 'Samsung One UI', 'Dimensions': '164.2mm x 75.9mm x 9.1mm', 'Weight': '196g'}, 'Display & Design': {'Size': '6.5 inches (16.51 cm)', 'Resolution': '720 x 1600 pixels', 'Pixel Density': '270ppi', 'Touch Screen': 'Yes, Capacitive Touchscreen, Multi-touch', 'Type': 'PLS TFT LCD', 'Screen To Body Ratio': '', 'Aspect Ratio': '20 9', 'Refresh Rate': '', 'Screen Protection': '', 'Design': 'Notch Display', 'Colour Options': ['Black', 'Blue', 'Red'], 'Water Resistance': ''}, 'Hardware': {'Chipset': 'Unisoc T606', 'CPU': [' 2 x 1.6GHz Cortex A75', '6 x 1.6GHz Cortex A55'], 'GPU': 'Mali-G57 MP1', 'Architecture': '64-bit', 'RAM': '3 GB', 'Internal Storage': '32 GB', 'MicroSD Card Slot': 'Up to 1 TB'}, 'Main Camera': {'Number of Cameras': 'Dual', 'Resolution': [' 48 MP f/1.8 main camera', '10x Digital Zoom', '2 MP f/2.4 depth sensor'], 'Flash': 'LED Flash', 'Video': [' 1920x1080@30fps'], 'Features': ['Auto Flash', 'Auto Focus', 'Bokeh Effect', 'Continuous Shooting', 'Exposure compensation', 'Face detection', 'Geo tagging', 'High Dynamic Range mode (HDR)', 'ISO control', 'Touch to focus', 'White balance presets']}, 'Front Camera': {'Number of Cameras': 'Single', 'Resolution': '5 MP f/2.2 main camera', 'Flash': '', 'Video': [','], 'Features': [',']}, 'Battery': {'Capacity': '5000 mAh', 'Type': 'Li-ion', 'Wireless Charging': 'No', 'Fast Charging': 'No'}, 'Security & Sensors': {'Fingerprint Sensor': 'No', 'Sensors': ['Light sensor', 'Proximity sensor', 'Accelerometer']}, 'Connectivity & Audio': {'Network': ['2G', '3G', '4G (compatible with India)', 'VoLTE'], 'SIM 1 Bands': {'4G Bands': {'TD-LTE': ['2600(band 38) ', '2300(band 40) ', '2500(band 41)'], 'FD-LTE': ['2100(band 1) ', '1800(band 3) ', '2600(band 7) ', '900(band 8) ', '700(band 28) ', '850(band 5) ', '800(band 20)']}, '3G Bands': ['UMTS 1900 ', '2100 ', '850 ', '900 MHz'], '2G Bands': ['GSM 1800 ', '1900 ', '850 ', '900 MHz'], 'GPRS': ' Available', 'EDGE': ' Available'}, 'SIM card slots': 'Dual SIM', 'SIM card type': 'Nano + Nano', 'Charging Port': 'microUSB 2.0', 'USB OTG': '', 'Wi-Fi': 'Wi-Fi 802.11, a/ac/b/g/n/n 5GHz,  Direct, Mobile Hotspot', 'Wi-Fi Calling': '', 'Bluetooth': 'Bluetooth 5.0', 'NFC': 'No', 'GPS': 'Yes with A-GPS, Glonass', 'FM Radio': '', 'Loudspeaker': 'Yes, Dolby Atmos', '3.5mm headphone jack': 'Yes'}}\n### Keys: ['Design and Display']\n",
+        "Given following json that contains specifications of a product, generate a review of the key characteristics with json format. Follow the values on {Keys} to write the Output:\n### Product: {'Model Name': 'I KALL K480', 'General': {'Operating System': 'Android 6.0 (Marshmallow)', 'Custom UI': '', 'Dimensions': '', 'Weight': ''}, 'Display & Design': {'Size': '5.5 inches (13.97 cm)', 'Resolution': '480 x 960 pixels', 'Pixel Density': '195ppi', 'Touch Screen': 'Yes, Capacitive Touchscreen, Multi-touch', 'Type': 'IPS LCD', 'Screen To Body Ratio': '', 'Aspect Ratio': '', 'Refresh Rate': '', 'Screen Protection': '', 'Design': 'Waterdrop notch display', 'Colour Options': [','], 'Water Resistance': ''}, 'Hardware': {'Chipset': '', 'CPU': [' 4 x 1.3GHz'], 'GPU': '', 'Architecture': '', 'RAM': '2 GB', 'Internal Storage': '16 GB', 'MicroSD Card Slot': 'Up to 64 GB'}, 'Main Camera': {'Number of Cameras': 'Single', 'Resolution': [' 8 MP main camera', 'Digital Zoom'], 'Flash': 'LED Flash', 'Video': [], 'Features': [',']}, 'Front Camera': {'Number of Cameras': 'Single', 'Resolution': '5 MP main camera', 'Flash': '', 'Video': [','], 'Features': [',']}, 'Battery': {'Capacity': '4000 mAh', 'Type': 'Li-ion', 'Wireless Charging': 'No', 'Fast Charging': ''}, 'Security & Sensors': {'Fingerprint Sensor': 'No', 'Sensors': ['Accelerometer']}, 'Connectivity & Audio': {'Network': ['2G', '3G', '4G (compatible with India)', 'VoLTE'], 'SIM 1 Bands': {'4G Bands': {'TD-LTE': ['2300(band 40)'], 'FD-LTE': ['1800(band 3)']}, '3G Bands': ['UMTS 2100 ', '900 MHz'], '2G Bands': ['GSM 1800 ', '900 MHz'], 'GPRS': ' Available', 'EDGE': ' Available'}, 'SIM card slots': 'Dual SIM', 'SIM card type': '', 'Charging Port': 'microUSB 2.0', 'USB OTG': '', 'Wi-Fi': 'Wi-Fi 802.11, b/g/n, Mobile Hotspot', 'Wi-Fi Calling': '', 'Bluetooth': 'Bluetooth', 'NFC': '', 'GPS': 'Yes with A-GPS', 'FM Radio': '', 'Loudspeaker': 'Yes', '3.5mm headphone jack': 'Yes'}}\n### Keys: ['Cameras', 'Design and Display', 'Battery and Performance']\n",
+        "Given following json that contains specifications of a product, generate a review of the key characteristics with json format. Follow the values on {Keys} to write the Output:\n### Product: {'Model Name': 'Zopo Color E1 ZP353', 'General': {'Operating System': 'Android 5.1 (Lollipop)', 'Custom UI': '', 'Dimensions': '145.9mm x 71.4mm x 8.5mm', 'Weight': '137g'}, 'Display & Design': {'Size': '5.0 inches (12.7 cm)', 'Resolution': '720 x 1280 pixels', 'Pixel Density': '294ppi', 'Touch Screen': 'Yes, Capacitive Touchscreen, Multi-touch', 'Type': 'IPS LCD', 'Screen To Body Ratio': '', 'Aspect Ratio': '', 'Refresh Rate': '', 'Screen Protection': '', 'Design': '', 'Colour Options': ['Black', 'Blue', 'Red', 'Yellow'], 'Water Resistance': ''}, 'Hardware': {'Chipset': 'MediaTek MT6580', 'CPU': [' 4 x 1.3GHz Cortex A7'], 'GPU': 'Mali-400 MP', 'Architecture': '', 'RAM': '1 GB', 'Internal Storage': '8 GB', 'MicroSD Card Slot': 'Up to 32 GB'}, 'Main Camera': {'Number of Cameras': 'Single', 'Resolution': [' 8 MP f/2.8 main camera', 'Digital Zoom'], 'Flash': 'LED Flash', 'Video': [' 1920x1080@30fps'], 'Features': ['Auto Flash', 'Auto Focus', 'Continuous Shooting', 'Digital image stabilization', 'Exposure compensation', 'Face detection', 'Geo tagging', 'High Dynamic Range mode (HDR)', 'ISO control', 'PureCel Sensor', 'Touch to focus', 'White balance presets']}, 'Front Camera': {'Number of Cameras': 'Single', 'Resolution': '2 MP main camera', 'Flash': '', 'Video': [','], 'Features': ['Fixed Focus']}, 'Battery': {'Capacity': '2100 mAh', 'Type': 'Li-Polymer', 'Wireless Charging': '', 'Fast Charging': ''}, 'Security & Sensors': {'Fingerprint Sensor': 'No', 'Sensors': ['Light sensor', 'Proximity sensor', 'Accelerometer', 'Compass']}, 'Connectivity & Audio': {'Network': ['2G', '3G'], 'SIM 1 Bands': {'4G Bands': {'TD-LTE': ['/'], 'FD-LTE': ['/']}, '3G Bands': ['UMTS 1900 ', '2100 ', '850 MHz'], '2G Bands': ['GSM 1800 ', '1900 ', '850 ', '900 MHz'], 'GPRS': ' Available', 'EDGE': ' Available'}, 'SIM card slots': 'Dual SIM', 'SIM card type': '', 'Charging Port': 'microUSB 2.0', 'USB OTG': 'Yes', 'Wi-Fi': 'Wi-Fi 802.11, b/g/n, Mobile Hotspot', 'Wi-Fi Calling': '', 'Bluetooth': 'Bluetooth 4.0', 'NFC': '', 'GPS': 'Yes with A-GPS', 'FM Radio': 'Yes', 'Loudspeaker': 'Yes', '3.5mm headphone jack': 'Yes'}}\n### Keys: ['Design and Display', 'Camera and Storage']\n",
+        "Given following json that contains specifications of a product, generate a review of the key characteristics with json format. Follow the values on {Keys} to write the Output:\n### Product: {'Model Name': 'Xiaomi Redmi 8A Dual 64GB', 'General': {'Operating System': 'Android 9.0 (Pie)', 'Custom UI': 'MIUI', 'Dimensions': '156.4mm x 75.4mm x 9.4mm', 'Weight': '188g'}, 'Display & Design': {'Size': '6.22 inches (15.8 cm)', 'Resolution': '720 x 1520 pixels', 'Pixel Density': '270ppi', 'Touch Screen': 'Yes, Capacitive Touchscreen, Multi-touch', 'Type': 'IPS LCD, 2.5D Curved Glass', 'Screen To Body Ratio': '', 'Aspect Ratio': '19 9', 'Refresh Rate': '', 'Screen Protection': 'Corning Gorilla Glass v5', 'Design': 'Waterdrop notch display', 'Colour Options': ['Midnight Grey', 'Sea Blue', 'Sky White'], 'Water Resistance': 'Splash proof'}, 'Hardware': {'Chipset': 'Qualcomm Snapdragon 439', 'CPU': [' 4 x 1.95GHz Cortex A53', '4 x 1.45GHz Cortex A53'], 'GPU': 'Adreno 505', 'Architecture': '64-bit', 'RAM': '3 GB', 'Internal Storage': '64 GB', 'MicroSD Card Slot': 'Up to 512 GB'}, 'Main Camera': {'Number of Cameras': 'Dual', 'Resolution': [' 13 MP f/2.2 main camera', 'PDAF, Digital Zoom', '2 MP f/2.4 depth sensor'], 'Flash': 'LED Flash', 'Video': [' 1920x1080@30fps, 1280x720@30fps'], 'Features': ['AF Phase Detection', 'Artificial Intelligence', 'Auto Flash', 'Auto Focus', 'Bokeh Effect', 'CMOS image sensor', 'Continuous Shooting', 'Exposure compensation', 'Face detection', 'Geo tagging', 'High Dynamic Range mode (HDR)', 'ISO control', 'Touch to focus', 'White balance presets']}, 'Front Camera': {'Number of Cameras': 'Single', 'Resolution': '8 MP f/2.0 main camera', 'Flash': '', 'Video': ['1920x1080@30fps'], 'Features': ['Artificial Intelligence', 'Bokeh Effect']}, 'Battery': {'Capacity': '5000 mAh', 'Type': 'Li-Polymer', 'Wireless Charging': '', 'Fast Charging': 'Yes'}, 'Security & Sensors': {'Fingerprint Sensor': 'No', 'Sensors': ['Light sensor', 'Proximity sensor', 'Accelerometer', 'Compass']}, 'Connectivity & Audio': {'Network': ['2G', '3G', '4G (compatible with India)', 'VoLTE'], 'SIM 1 Bands': {'4G Bands': {'TD-LTE': ['2300(band 40) ', '2500(band 41)'], 'FD-LTE': ['2100(band 1) ', '1800(band 3) ', '900(band 8) ', '850(band 5)']}, '3G Bands': ['UMTS 1900 ', '2100 ', '850 ', '900 MHz'], '2G Bands': ['GSM 1800 ', '1900 ', '850 ', '900 MHz'], 'GPRS': ' Available', 'EDGE': ' Available'}, 'SIM card slots': 'Dual SIM', 'SIM card type': 'Nano + Nano', 'Charging Port': 'USB Type-C', 'USB OTG': '', 'Wi-Fi': 'Wi-Fi 802.11, b/g/n,  Direct, Mobile Hotspot', 'Wi-Fi Calling': '', 'Bluetooth': 'Bluetooth 4.2', 'NFC': 'No', 'GPS': 'Yes with A-GPS, Glonass', 'FM Radio': 'Yes', 'Loudspeaker': 'Yes', '3.5mm headphone jack': 'Yes'}}\n### Keys: ['Design and Display']\n",
+        "Given following json that contains specifications of a product, generate a review of the key characteristics with json format. Follow the values on {Keys} to write the Output:\n### Product: {'Model Name': 'Xiaomi Redmi Note 11', 'General': {'Operating System': 'Android 11', 'Custom UI': 'MIUI', 'Dimensions': '163.5mm x 75.7mm x 8.7mm', 'Weight': '195g'}, 'Display & Design': {'Size': '6.6 inches (16.76 cm)', 'Resolution': '1080 x 2400 pixels', 'Pixel Density': '399ppi', 'Touch Screen': 'Yes, Capacitive Touchscreen, Multi-touch', 'Type': 'IPS LCD', 'Screen To Body Ratio': '', 'Aspect Ratio': '20 9', 'Refresh Rate': '90Hz', 'Screen Protection': '', 'Design': 'Punch-hole display', 'Colour Options': ['Mysterious Black', 'Milky Way Blue', 'Mint Green'], 'Water Resistance': 'IP53, Splash proof'}, 'Hardware': {'Chipset': 'MediaTek Dimensity 810 MT6833', 'CPU': [' 2 x 2.4GHz Cortex A76', '6 x 2GHz Cortex A55'], 'GPU': 'Mali-G57 MC2', 'Architecture': '64-bit', 'RAM': '4 GB', 'Internal Storage': '128 GB', 'MicroSD Card Slot': ''}, 'Main Camera': {'Number of Cameras': 'Dual', 'Resolution': [' 50 MP Wide Angle main camera', 'Digital Zoom', '8 MP ultra-wide camera'], 'Flash': 'LED Flash', 'Video': [], 'Features': ['Auto Flash', 'Auto Focus', 'Bokeh Effect', 'Continuous Shooting', 'Exposure compensation', 'Face detection', 'Geo tagging', 'High Dynamic Range mode (HDR)', 'ISO control', 'Touch to focus', 'White balance presets']}, 'Front Camera': {'Number of Cameras': 'Single', 'Resolution': '16 MP main camera', 'Flash': '', 'Video': ['1920x1080@30fps'], 'Features': [',']}, 'Battery': {'Capacity': '5000 mAh', 'Type': 'Li-Polymer', 'Wireless Charging': '', 'Fast Charging': 'Yes, 100 % in 62 minutes'}, 'Security & Sensors': {'Fingerprint Sensor': 'Yes, Side', 'Sensors': ['Light sensor', 'Proximity sensor', 'Accelerometer', 'Compass', 'Gyroscope']}, 'Connectivity & Audio': {'Network': ['2G', '3G', '4G (compatible with India)', 'VoLTE', '5G'], 'SIM 1 Bands': {'4G Bands': {'TD-LTE': ['2300(band 40)'], 'FD-LTE': ['1800(band 3)']}, '3G Bands': ['UMTS 1900 ', '2100 ', '850 ', '900 MHz'], '2G Bands': ['GSM 1800 ', '1900 ', '850 ', '900 MHz'], 'GPRS': ' Available', 'EDGE': ' Available'}, 'SIM card slots': 'Dual SIM', 'SIM card type': 'Nano + Nano', 'Charging Port': 'USB Type-C', 'USB OTG': '', 'Wi-Fi': 'Wi-Fi 802.11, ac/b/g/n/n 5GHz, Mobile Hotspot', 'Wi-Fi Calling': '', 'Bluetooth': 'Bluetooth 5.1', 'NFC': '', 'GPS': 'Yes with A-GPS', 'FM Radio': '', 'Loudspeaker': 'Yes', '3.5mm headphone jack': 'Yes'}}\n### Keys: ['Battery and Performance', 'Design and Display']\n",
+        "Given following json that contains specifications of a product, generate a review of the key characteristics with json format. Follow the values on {Keys} to write the Output:\n### Product: {'Model Name': 'Apple iPhone 15', 'General': {'Operating System': 'iOS 17', 'Custom UI': '', 'Dimensions': '147.6mm x 71.6mm x 7.8mm', 'Weight': '171g'}, 'Display & Design': {'Size': '6.1 inches (15.49 cm)', 'Resolution': '1179 x 2556 pixels', 'Pixel Density': '461ppi', 'Touch Screen': 'Yes, Capacitive Touchscreen, Multi-touch', 'Type': 'OLED, HDR Display, Oleophobic coating, Split screen, Super Retina XDR display, True Tone', 'Screen To Body Ratio': '', 'Aspect Ratio': '19.5 9', 'Refresh Rate': '60Hz', 'Screen Protection': 'Yes', 'Design': 'Punch-hole display', 'Colour Options': ['Black', 'Blue', 'Green', 'Pink', 'Yellow'], 'Water Resistance': 'IP68, Water resistant (up to 30 minutes in a depth of 6 meter)'}, 'Hardware': {'Chipset': 'Apple A16 Bionic', 'CPU': [' 2 x 3.46GHz Everest', '4 x 2.02GHz Sawtooth'], 'GPU': 'Apple  (Five-core graphics)', 'Architecture': '64-bit', 'RAM': '6 GB', 'Internal Storage': '128 GB', 'MicroSD Card Slot': 'No'}, 'Main Camera': {'Number of Cameras': 'Dual', 'Resolution': [' 48 MP f/1.6 Wide Angle main camera', 'PDAF, OIS, 10x Digital Zoom', '12 MP f/2.4 ultra-wide camera'], 'Flash': 'Dual-color LED Flash', 'Video': [' 3840x2160@24fps, 1920x1080@30fps'], 'Features': ['AF Phase Detection', 'Auto Flash', 'Auto Focus', 'Bokeh Effect', 'Continuous Shooting', 'Deep Fusion', 'Exposure compensation', 'Face detection', 'Focus Pixels', 'Geo tagging', 'High Dynamic Range mode (HDR)', 'ISO control', 'Optical image stabilization', 'Red-eye Reduction', 'Sensor-shift Image Stabilization', 'Smart HDR', 'Touch to focus', 'White balance presets', 'Portrait Lighting']}, 'Front Camera': {'Number of Cameras': 'Single', 'Resolution': '12 MP f/1.9, Wide Angle main camera', 'Flash': 'Retina Flash', 'Video': ['3840x2160@24fps', '1920x1080@30fps'], 'Features': ['Auto Focus', 'Auto Image Stabilization', 'Bokeh Effect', 'Cinematic Video Stabilization', 'Deep Fusion', 'Focus Pixels', 'High Dynamic Range mode (HDR)', 'Portrait Lighting', 'Smart HDR', 'Time Lapse']}, 'Battery': {'Capacity': '3349 mAh', 'Type': 'Li-ion', 'Wireless Charging': 'Yes', 'Fast Charging': 'Yes, 50 % in 30 minutes'}, 'Security & Sensors': {'Fingerprint Sensor': 'No', 'Sensors': ['Light sensor', 'Proximity sensor', 'Accelerometer', 'Barometer', 'Compass', 'Gyroscope']}, 'Connectivity & Audio': {'Network': ['2G', '3G', '4G (compatible with India)', 'VoLTE', '5G'], 'SIM 1 Bands': {'4G Bands': {'TD-LTE': ['2600(band 38) ', '2300(band 40) ', '2500(band 41) ', '2100(band 34) ', '1900(band 39) ', '3500(band 42)'], 'FD-LTE': ['2100(band 1) ', '1800(band 3) ', '2600(band 7) ', '900(band 8) ', '700(band 28) ', '1900(band 2) ', '1700(band 4) ', '850(band 5) ', '700(band 13) ', '700(band 17) ', '850(band 18) ', '850(band 19) ', '800(band 20) ', '1900(band 25) ', '850(band 26) ', '2300(band 30)']}, '3G Bands': ['UMTS 1900 ', '2100 ', '850 ', '900 MHz'], '2G Bands': ['GSM 1800 ', '1900 ', '850 ', '900 MHz'], 'GPRS': ' Available', 'EDGE': ' Available'}, 'SIM card slots': 'Dual SIM', 'SIM card type': 'Nano + eSIM', 'Charging Port': 'USB Type-C', 'USB OTG': '', 'Wi-Fi': 'Wi-Fi 802.11, a/ac/ax/ax 6GHz/b/g/n/n 5GHz, MIMO, Mobile Hotspot', 'Wi-Fi Calling': 'Yes', 'Bluetooth': 'Bluetooth 5.3', 'NFC': 'Yes', 'GPS': 'Yes with A-GPS, Glonass', 'FM Radio': 'No', 'Loudspeaker': 'Yes, Stereo speakers, Dolby Atmos, Dolby Digital, Dolby Digital Plus', '3.5mm headphone jack': ''}}\n### Keys: ['Battery and Performance', 'Cameras', 'Design and Display']\n",
+        "Given following json that contains specifications of a product, generate a review of the key characteristics with json format. Follow the values on {Keys} to write the Output:\n### Product: {'Model Name': 'I KALL Z2', 'General': {'Operating System': 'Android 8.1 (Oreo)', 'Custom UI': '', 'Dimensions': '', 'Weight': ''}, 'Display & Design': {'Size': '6.26 inches (15.9 cm)', 'Resolution': '480 x 960 pixels', 'Pixel Density': '171ppi', 'Touch Screen': 'Yes, Capacitive Touchscreen, Multi-touch', 'Type': 'TFT', 'Screen To Body Ratio': '', 'Aspect Ratio': '', 'Refresh Rate': '', 'Screen Protection': '', 'Design': 'Notch Display', 'Colour Options': ['Blue', 'Purple'], 'Water Resistance': ''}, 'Hardware': {'Chipset': '', 'CPU': [' 4 x 1.3GHz'], 'GPU': '', 'Architecture': '', 'RAM': '4 GB', 'Internal Storage': '32 GB', 'MicroSD Card Slot': 'Up to 32 GB'}, 'Main Camera': {'Number of Cameras': 'Single', 'Resolution': [' 8 MP main camera', 'Digital Zoom'], 'Flash': 'LED Flash', 'Video': [], 'Features': [',']}, 'Front Camera': {'Number of Cameras': 'Single', 'Resolution': '5 MP main camera', 'Flash': '', 'Video': [','], 'Features': [',']}, 'Battery': {'Capacity': '4000 mAh', 'Type': 'Li-Polymer', 'Wireless Charging': '', 'Fast Charging': ''}, 'Security & Sensors': {'Fingerprint Sensor': 'No', 'Sensors': ['Light sensor', 'Proximity sensor', 'Accelerometer']}, 'Connectivity & Audio': {'Network': ['2G', '3G', '4G (compatible with India)', 'VoLTE'], 'SIM 1 Bands': {'4G Bands': {'TD-LTE': ['2300(band 40)'], 'FD-LTE': ['1800(band 3)']}, '3G Bands': ['UMTS 1900 ', '900 MHz'], '2G Bands': ['GSM 1800 ', '900 MHz'], 'GPRS': ' Available', 'EDGE': ' Available'}, 'SIM card slots': 'Dual SIM', 'SIM card type': '', 'Charging Port': 'microUSB', 'USB OTG': '', 'Wi-Fi': 'Wi-Fi 802.11, b/g/n, Mobile Hotspot', 'Wi-Fi Calling': '', 'Bluetooth': 'Bluetooth', 'NFC': '', 'GPS': 'Yes with A-GPS', 'FM Radio': '', 'Loudspeaker': 'Yes', '3.5mm headphone jack': 'Yes'}}\n### Keys: ['Software and Connectivity', 'Battery and Performance', 'Design and Display']\n",
+        "Given following json that contains specifications of a product, generate a review of the key characteristics with json format. Follow the values on {Keys} to write the Output:\n### Product: {'Model Name': 'I KALL Z1', 'General': {'Operating System': 'Android 8.1 (Oreo)', 'Custom UI': '', 'Dimensions': '', 'Weight': ''}, 'Display & Design': {'Size': '5.45 inches (13.84 cm)', 'Resolution': '480 x 960 pixels', 'Pixel Density': '197ppi', 'Touch Screen': 'Yes, Capacitive Touchscreen, Multi-touch', 'Type': 'TFT', 'Screen To Body Ratio': '', 'Aspect Ratio': '', 'Refresh Rate': '', 'Screen Protection': '', 'Design': 'Notch Display', 'Colour Options': [','], 'Water Resistance': ''}, 'Hardware': {'Chipset': '', 'CPU': [' 4 x 1.3GHz'], 'GPU': '', 'Architecture': '', 'RAM': '4 GB', 'Internal Storage': '32 GB', 'MicroSD Card Slot': 'Up to 32 GB'}, 'Main Camera': {'Number of Cameras': 'Single', 'Resolution': [' 8 MP main camera', 'Digital Zoom'], 'Flash': 'LED Flash', 'Video': [], 'Features': [',']}, 'Front Camera': {'Number of Cameras': 'Single', 'Resolution': '5 MP main camera', 'Flash': '', 'Video': [','], 'Features': [',']}, 'Battery': {'Capacity': '3000 mAh', 'Type': 'Li-ion', 'Wireless Charging': '', 'Fast Charging': ''}, 'Security & Sensors': {'Fingerprint Sensor': 'No', 'Sensors': ['Light sensor', 'Proximity sensor', 'Accelerometer']}, 'Connectivity & Audio': {'Network': ['2G', '3G', '4G (compatible with India)', 'VoLTE'], 'SIM 1 Bands': {'4G Bands': {'TD-LTE': ['2300(band 40)'], 'FD-LTE': ['1800(band 3)']}, '3G Bands': ['UMTS 1900 ', '900 MHz'], '2G Bands': ['GSM 1800 ', '900 MHz'], 'GPRS': ' Available', 'EDGE': ' Available'}, 'SIM card slots': 'Dual SIM', 'SIM card type': '', 'Charging Port': 'microUSB', 'USB OTG': '', 'Wi-Fi': 'Wi-Fi 802.11, b/g/n, Mobile Hotspot', 'Wi-Fi Calling': '', 'Bluetooth': 'Bluetooth', 'NFC': '', 'GPS': 'Yes with A-GPS', 'FM Radio': '', 'Loudspeaker': 'Yes', '3.5mm headphone jack': 'Yes'}}\n### Keys: ['Design and Display', 'Cameras']\n",
+        "Given following json that contains specifications of a product, generate a review of the key characteristics with json format. Follow the values on {Keys} to write the Output:\n### Product: {'Model Name': 'I KALL K540', 'General': {'Operating System': 'Android 6.0 (Marshmallow)', 'Custom UI': '', 'Dimensions': '150mm x 72mm x 9mm', 'Weight': '187g'}, 'Display & Design': {'Size': '5.5 inches (13.97 cm)', 'Resolution': '480 x 1014 pixels', 'Pixel Density': '204ppi', 'Touch Screen': 'Yes, Capacitive Touchscreen, Multi-touch', 'Type': 'IPS LCD', 'Screen To Body Ratio': '', 'Aspect Ratio': '', 'Refresh Rate': '', 'Screen Protection': '', 'Design': 'Waterdrop notch display', 'Colour Options': ['Blue'], 'Water Resistance': ''}, 'Hardware': {'Chipset': '', 'CPU': [' 4 x 1.3GHz'], 'GPU': '', 'Architecture': '', 'RAM': '4 GB', 'Internal Storage': '64 GB', 'MicroSD Card Slot': 'Up to 64 GB'}, 'Main Camera': {'Number of Cameras': 'Single', 'Resolution': [' 8 MP main camera', 'Digital Zoom'], 'Flash': 'LED Flash', 'Video': [], 'Features': [',']}, 'Front Camera': {'Number of Cameras': 'Single', 'Resolution': '5 MP main camera', 'Flash': 'LED Flash', 'Video': [','], 'Features': [',']}, 'Battery': {'Capacity': '3000 mAh', 'Type': 'Li-ion', 'Wireless Charging': '', 'Fast Charging': ''}, 'Security & Sensors': {'Fingerprint Sensor': 'No', 'Sensors': ['Light sensor', 'Proximity sensor', 'Accelerometer']}, 'Connectivity & Audio': {'Network': ['2G', '3G', '4G (compatible with India)', 'VoLTE'], 'SIM 1 Bands': {'4G Bands': {'TD-LTE': ['2300(band 40)'], 'FD-LTE': ['1800(band 3)']}, '3G Bands': ['UMTS 1900 ', '2100 ', '850 ', '900 MHz'], '2G Bands': ['GSM 1800 ', '1900 ', '850 ', '900 MHz'], 'GPRS': ' Available', 'EDGE': ' Available'}, 'SIM card slots': 'Dual SIM', 'SIM card type': '', 'Charging Port': 'microUSB', 'USB OTG': '', 'Wi-Fi': 'Wi-Fi 802.11, b/g/n, Mobile Hotspot', 'Wi-Fi Calling': '', 'Bluetooth': 'Bluetooth', 'NFC': '', 'GPS': 'Yes with A-GPS', 'FM Radio': '', 'Loudspeaker': 'Yes', '3.5mm headphone jack': 'Yes'}}\n### Keys: ['Software and Connectivity', 'Design and Display']\n",
+        "Given following json that contains specifications of a product, generate a review of the key characteristics with json format. Follow the values on {Keys} to write the Output:\n### Product: {'Model Name': 'Micromax Bharat 1', 'General': {'Operating System': '', 'Custom UI': '', 'Dimensions': '134mm x 56.4mm x 13.8mm', 'Weight': '58g'}, 'Display & Design': {'Size': '2.4 inches (6.1 cm)', 'Resolution': '240 x 320 pixels', 'Pixel Density': '167ppi', 'Touch Screen': 'No', 'Type': 'TFT', 'Screen To Body Ratio': '', 'Aspect Ratio': '', 'Refresh Rate': '', 'Screen Protection': '', 'Design': '', 'Colour Options': ['Black'], 'Water Resistance': ''}, 'Hardware': {'Chipset': 'Qualcomm Snapdragon 205 MSM8905', 'CPU': [' 2 x 1.1GHz Cortex A7'], 'GPU': 'Adreno 304', 'Architecture': '', 'RAM': '512 MB', 'Internal Storage': '4 GB', 'MicroSD Card Slot': 'Up to 32 GB'}, 'Main Camera': {'Number of Cameras': 'Single', 'Resolution': [' 2 MP main camera', 'Digital Zoom'], 'Flash': '', 'Video': [], 'Features': [',']}, 'Front Camera': {'Number of Cameras': 'Single', 'Resolution': '0.3 MP main camera', 'Flash': '', 'Video': [','], 'Features': [',']}, 'Battery': {'Capacity': '2000 mAh', 'Type': 'Li-ion', 'Wireless Charging': 'No', 'Fast Charging': 'No'}, 'Security & Sensors': {'Fingerprint Sensor': 'No', 'Sensors': [',']}, 'Connectivity & Audio': {'Network': ['2G', '3G', '4G (compatible with India)', 'VoLTE'], 'SIM 1 Bands': {'4G Bands': {'TD-LTE': ['2300(band 40)'], 'FD-LTE': ['1800(band 3)']}, '3G Bands': ['UMTS 2100 ', '900 MHz'], '2G Bands': ['GSM 1800 ', '900 MHz'], 'GPRS': ' Available', 'EDGE': ' Available'}, 'SIM card slots': 'Dual SIM', 'SIM card type': 'Micro + Micro', 'Charging Port': '', 'USB OTG': '', 'Wi-Fi': 'Wi-Fi 802.11, b/g/n, Mobile Hotspot', 'Wi-Fi Calling': '', 'Bluetooth': 'Bluetooth 4.1', 'NFC': 'No', 'GPS': '', 'FM Radio': 'Yes', 'Loudspeaker': 'Yes', '3.5mm headphone jack': 'Yes'}}\n### Keys: ['Design and Display', 'Software and Platform']\n"
+    ],
+    "Original": [
+        "{'Design and Display': 'The device ships with a 5.5 inch P-OLED curved display with a Full HD resolution. This display features a 700mm radius curvature and a 650mm radius curvature on the back. There is also a Gorilla Glass 3 for adding toughness to the display and ensuring that it stays intact. LG has claimed that the Corning Gorilla Glass inclusion will result in at least 20% more strength as compared to the LG G Flex. In terms of design, the G Flex 2 is very similar to the Flex 1. You have nice subtle curves with a rounded back which sits well in the palm. The phone feels a little more solid than the G Flex in general. You have the volume buttons as well as the power button on the rear of the device, just like most LG flagships now.', 'Battery and Connectivity': '4G support is one major thing missed out with the LG G Flex 2, and the device supports only one Micro SIM. LG G Flex 2 has got NFC support. To power all this we get a 3000mAh non-removable battery which does sound decent and should last through the day.'}",
+        "{'Design and Display': 'The Vivo X70 Pro Plus will reportedly feature a 6.78 inch AMOLEDdisplay with a resolution of 1440 x 3200 pixelsand a pixel density of 518ppi to deliver one of the finest viewing experiences. The display is supposed to sport a punch-hole design with very small bezels.'}",
+        "{'Cameras': 'In terms of optics, the device sports a triple camera setup on the rear consisting of a 48MP primary sensor, a 2MP secondary and another 2MP tertiary sensor. On the front it gets a 21MP shooter for selfies. It also brings in features like Artificial Intelligence,Auto Flash,Auto Focus,Bokeh Effect,Continuos Shooting,Exposure compensation,Face detection,Geo tagging,High Dynamic Range mode (HDR),ISO control,Time Lapse,Touch to focus,White balance presets. Night,Panorama,Portrait andPro Camera Modes can be visualised.', 'Performance and Battery': 'The CoolPad Cool 6 is powered by Mediatek's Helio P70, which. It is a octa-core chipset coupled with Mali-G72 MP3 GPU. The device gets 4GB of RAM and 64GB of on-board storage, which is expandable upto 256GB via microSD. It will ship with a 4000mAh battery inside.'}",
+        "{'Software and Connectivity': 'The Tecno Spark Go 2020 is expected to ship with Android 10 out of the box. Speaking of connectivity, the smartphone will reportedly have support for features such as Dual sim VoLTE (Nano + Nano), Wi-Fi 802.11, b/g/n, GPS, Radio and Bluetooth. There will also reportedly be a fingerprint sensor and the smartphone will ship with a microUSB 2.0 port. However, the device is still expected to have a 3.5mm headphone jack onboard.', 'Design and Display': 'The Tecno Spark Go 2020 will reportedly feature a 6.52 inch TFT panel tipped with a resolution of 720 x 1600 pixels. The pixel density will supposedly max out at 269ppi. The bezel-less display is further anticipated to boast a waterdrop notch design to furnish an immersive viewing experience.', 'Battery and Performance': 'The Tecno Spark Go 2020 is anticipated to be powered by MediaTek\u2019s latest entry-level Helio A20quad-core chipset coupled with a PowerVR GE8300 GPU. That will again reportedly be paired with 2 GB RAM and an internal storage capacity of only 32 GB, which can further be expanded up to 256GB. Further, the device will reportedly pack in a 5000mAh Li-ion battery but won\u2019t support fast charging.'}",
+        "{'Cameras': 'The I KALL K560 has a 13MP camera sensor on the back with an LED flash and features an 8MP selfie cam on the front. Features like Auto Flash, Auto Focus are supported by the device.', 'Battery and Performance': 'The I KALL K560 is embedded with a poor quad core chip. The RAM and internal storage of the device stand at 4GB and 64GB respectively. The internal storage of the device can be expanded upto 64GB through memory cards. Battery life seems pretty good with the big 4000mAh Li-ion battery that it comes with.', 'Design and Display': 'The I KALL K560 features a 6.53 inch IPS LCD display with a resolution of 720 x 1560 pixels and a pixel density of 263ppi. The display comes with a waterdrop notch and has less bezels.'}",
+        "{'Design and Display': 'The Galaxy A03 is supposed to feature a 6.5 inch IPS LCDdisplay with a resolution of 720 x 1560 pixelsand a pixel density of 264ppi. The bezel-less display will sport a infinity-V design. The smart phone has a screen to body ratio 83.04%.'}",
+        "{'Cameras': 'The I KALL K480 has an 8MP camera sensor and an LED flash on the back. For selfies, the device comes with a 5MP camera on the front.', 'Design and Display': 'The I KALL K480 features a 5.5 inch IPS LCD display with a resolution of 480 x 960 pixels and a pixel density of 195ppi. The display has less bezels and a waterdrop notch.', 'Battery and Performance': 'The I KALL K480 is embedded with a quad core chip. The RAM and internal storage of the device stand at 2GB and 16GB respectively. The device also supports memory cards upto 64GB. Battery life is the only good aspect of the device with the big 4000mAh Li-ion battery that it comes with.'}",
+        "{'Design and Display': 'Zopo Color E1 comes with 5 inch LCD touch screen IPS capacitive display, 1280 x 720 pixels screen resolution and 293.72PPI pixel density. It has a dimension of 145.9 x 71.4 x 8.5 mm and its weight is 137 grams. It is available in 5 colours including Blue, Red, White, Black and Yellow.', 'Camera and Storage': 'Zopo Color E1 is loaded with 8MP rear and 2MP front camera. Other camera features include HDR, panorama, dual LED flash, night mode, sport mode, auto focus and smile detection. Users can record full HD videos at 720p. It has an internal storage of 8GB that can be expanded up to 64GB by using a micro-SD card.'}",
+        "{'Design and Display': 'The Redmi 8A Dual is built out of plastic hence, it is not as fragile as a glass back device. It gets a 6.22 inch IPS LCD display with a screen resolution of 720x1600 pixels. A water drop notch housing the selfie shooter sits on the top of the display. The display is protected by a layer of Gorilla Glass 5. Besides this it gets a 3.5mm jack and a splash resistant body.'}",
+        "{'Battery and Performance': 'The Redmi Note 11 is said to be embedded with a MediaTek Dimensity 810 MT6833 processor and a Mali-G57 MC2GPU. The RAM and internal memory of the device could possibly be 4GB and 128GB respectively. The device couldn't support memory cards. A large 5000mAh Li-Polymer battery could come with the device. It is said to have fast charging too.', 'Design and Display': 'The Redmi Note 11 could feature a 6.6 inch IPS LCDdisplay with a resolution of 1080 x 2400 pixelsand a pixel density of 399ppi. The display is said to come with a Punch-hole that has less bezels, a screen-to-body ratio of 84.97%, and an aspect ratio of 209.'}",
+        "{'Battery and Performance': 'The Apple iPhone 15 is said to be embedded with an Apple A14 Bionic chip and an Apple GPU(four-core graphics). The RAM and internal memory of the device could possibly be 8GB and 256GB respectively and the device couldn't support memory cards. A 4200mAh Li-ion battery could come with the device. That is sufficiently large to last long, thanks to the optimization. It is said to have fast charging and wireless charging too.', 'Cameras': 'The Apple iPhone 15 is said to come with a dual-camera system on the back with a 12MP primary camera sensor, a 12MP wide-angle sensor, and an LED flash. On the front, the device will probably get a 12MP selfie cam. AF Phase Detection, Auto Flash, Auto Focus, Bokeh Effect, Continuos Shooting, Exposure compensation, Face detection, Geo-tagging, High Dynamic Range mode (HDR), ISO control, Optical image stabilization, Touch to focus, White balance presets could be the features supported.', 'Design and Display': 'The Apple iPhone 15 could feature a 6.1 inch OLEDdisplay with a resolution of 1170 x 2532 pixelsand a pixel density of 457ppi. the device could come with a notch display design.'}",
+        "{'Software and Connectivity': 'I KALL Z2 comes with Android 8 out of the box. The smartphone gets connectivity options like dual sim , Wi-Fi 802.11, b/g/n, GPS, and Bluetooth. In terms of ports selection, the smartphone gets a 3.5mm headphone jack and a microUSB port.', 'Battery and Performance': 'The I KALL Z2 is embedded with a Quad core processor and a Mali-G52GPU. The RAM and internal memory of the device is 4GB and 32GB respectively. The device supports memory cards upto 32GB. A large 4000mAh Li-ion battery comes with the device.', 'Design and Display': 'The I KALL Z2 features a 6.26 inch TFTdisplay with a resolution of 480 x 960 pixelsand a pixel density of 171ppi. The display comes with a notch display.'}",
+        "{'Design and Display': 'The I KALL Z1 features a 5.45 inch TFTdisplay with a resolution of 480 x 960 pixelsand a pixel density of 197ppi. The display comes with a notch display.', 'Cameras': 'The I KALL Z1 comes with a 8MP rear sensor, and an LED flash. On the front, The device gets a 5MP selfie cam.'}",
+        "{'Software and Connectivity': 'I KALL K540 comes with the years old Android 6 out of the box. The smartphone has connectivity options like dual SIM 4G, Wi-Fi 802.11, b/g/n, GPS, and Bluetooth. In terms of ports selection, the device gets a microUSB port and a 3.5mm headphone jack .', 'Design and Display': 'The I KALL K540 features a 5.5 inch IPS LCD display with a resolution of 480 x 1014 pixels and a pixel density of 204ppi. The display has a waterdrop notch with less bezels.'}",
+        "{'Design and Display': 'With a 2.4-inch TFT display that has a 320 x 240 pixel density, the phone is backlit to enable easy operation even in the dark. Its numerical keypad functions very smoothly and it looks elegant.', 'Software and Platform': 'Micromax Bharat 1 is a feature phone that runs KaiOS and offers WhatsApp and YouTube support.'}"
+    ],
+    "Prediction": [
+        {
+            "Design and Display": {
+                "Screen Size": "5.5 inches (13.97 cm)",
+                "Resolution": "1080 x 1920 pixels",
+                "Pixel Density": "401ppi",
+                "Screen Type": "P-OLED",
+                "Screen Protection": "Corning Gorilla Glass v3",
+                "Dimensions": "149.1mm x 75.3mm x 7.1mm",
+                "Weight": "152g",
+                "Colour Options": [
+                    "Red",
+                    "Silver"
+                ]
+            },
+            "Battery and Connectivity": {
+                "Battery Capacity": "3000 mAh",
+                "Battery Type": "Li-Polymer",
+                "Fast Charging": "Yes, Quick, v2.0",
+                "Network": [
+                    "2G",
+                    "3G"
+                ],
+                "SIM Card": "Single SIM, Micro",
+                "Wi-Fi": "Wi-Fi 802.11, a/ac/b/g/n, Direct, Mobile Hotspot",
+                "Bluetooth": "Bluetooth 4.1",
+                "NFC": "Yes",
+                "GPS": "Yes with A-GPS, Glonass",
+                "FM Radio": "Yes",
+                "Charging Port": "microUSB 2.0",
+                "Headphone Jack": "Yes"
+            }
+        },
+        {
+            "Design and Display": {
+                "Display Size": "6.78 inches (17.22 cm)",
+                "Resolution": "1440 x 3200 pixels",
+                "Pixel Density": "518ppi",
+                "Display Type": "AMOLED, Curved Display, HDR 10+",
+                "Refresh Rate": "120Hz",
+                "Screen Protection": "Unspecified",
+                "Design": "Punch-hole display",
+                "Screen to Body Ratio": "92.2%",
+                "Aspect Ratio": "20:9",
+                "Water Resistance": "IP68 (up to 30 minutes at 1.5 meters)"
+            }
+        },
+        {
+            "Cameras": {
+                "Main Camera": {
+                    "Description": "Triple camera setup with a 48MP main sensor, supplemented by two 2MP cameras. Features include AI, Auto Flash, Auto Focus, Bokeh Effect, Continuous Shooting, Exposure Compensation, Face Detection, Geo Tagging, HDR, ISO Control, Time Lapse, Touch to Focus, and White Balance Presets.",
+                    "Strengths": [
+                        "High-resolution main sensor",
+                        "Multiple features for enhanced photography"
+                    ],
+                    "Weaknesses": [
+                        "Auxiliary cameras with low resolution"
+                    ]
+                },
+                "Front Camera": {
+                    "Description": "21MP f/2.0 single front camera with AI and Bokeh Effect.",
+                    "Strengths": [
+                        "High resolution",
+                        "AI features for enhanced selfies"
+                    ],
+                    "Weaknesses": [
+                        "Lack of flash"
+                    ]
+                }
+            },
+            "Performance and Battery": {
+                "Performance": {
+                    "Description": "Powered by a MediaTek Helio P70 chipset with a 4x 2.1GHz Cortex-A73 and 4x 2GHz Cortex-A53 CPU configuration and Mali-G72 MP3 GPU.  4GB of RAM and 64GB of internal storage are included, expandable via microSD.",
+                    "Strengths": [
+                        "Decent processor for everyday tasks",
+                        "Expandable storage"
+                    ],
+                    "Weaknesses": [
+                        "Mid-range processor may struggle with demanding games or apps",
+                        "Limited RAM"
+                    ]
+                },
+                "Battery": {
+                    "Description": "4000mAh Li-ion battery.",
+                    "Strengths": [
+                        "Large battery capacity"
+                    ],
+                    "Weaknesses": [
+                        "No fast charging mentioned"
+                    ]
+                }
+            }
+        },
+        {
+            "Software and Connectivity": {
+                "Operating System": "Android 10 (Go edition)",
+                "Connectivity": "4G VoLTE, Wi-Fi 802.11 b/g/n, Bluetooth 4.2, GPS (with A-GPS and Glonass), FM Radio, microUSB 2.0 port,  Dual SIM (Nano)",
+                "Other Features": "USB OTG support"
+            },
+            "Design and Display": {
+                "Display": "6.52-inch TFT display with 720 x 1600 pixels resolution (269 ppi)",
+                "Design": "Waterdrop notch, Dimensions: 165.6mm x 76.3mm x 9.1mm, Weight: 193g",
+                "Colors": [
+                    "Aqua Blue",
+                    "Ice jadeite"
+                ]
+            },
+            "Battery and Performance": {
+                "Battery": "5000mAh Li-ion battery",
+                "Processor": "MediaTek Helio A20 with PowerVR GE8300 GPU",
+                "RAM": "2GB",
+                "Storage": "32GB + MicroSD up to 256GB"
+            }
+        },
+        {
+            "Cameras": {
+                "Main Camera": {
+                    "Description": "Single 13 MP main camera with LED flash, Auto Flash, and Auto Focus.  Features digital zoom.",
+                    "Video": "Specifications not provided."
+                },
+                "Front Camera": {
+                    "Description": "Single 8 MP main camera.",
+                    "Video": "Specifications not provided."
+                }
+            },
+            "Battery and Performance": {
+                "Battery": {
+                    "Capacity": "4000 mAh Li-ion battery",
+                    "Charging": "No fast charging or wireless charging available."
+                },
+                "Performance": {
+                    "Processor": "Unspecified chipset with a quad-core 1.3 GHz CPU. GPU and architecture details missing.",
+                    "RAM": "4 GB",
+                    "Storage": "64 GB internal storage, expandable up to 64 GB via microSD card."
+                }
+            },
+            "Design and Display": {
+                "Display": {
+                    "Size": "6.53 inches (16.59 cm) IPS LCD with a 720 x 1560 pixel resolution (263 ppi)",
+                    "Features": "Waterdrop notch display, capacitive touchscreen."
+                },
+                "Design": {
+                    "Color Options": [
+                        "Blue",
+                        "Purple"
+                    ],
+                    "Other Features": "No information provided on screen protection, aspect ratio, refresh rate, or water resistance."
+                }
+            }
+        },
+        {
+            "Design and Display": {
+                "Screen Size": "6.5 inches (16.51 cm)",
+                "Resolution": "720 x 1600 pixels",
+                "Pixel Density": "270ppi",
+                "Display Type": "PLS TFT LCD",
+                "Design": "Notch Display",
+                "Colors": [
+                    "Black",
+                    "Blue",
+                    "Red"
+                ],
+                "Screen Protection": "Not specified"
+            }
+        },
+        {
+            "Cameras": {
+                "Rear Camera": {
+                    "Description": "Single 8MP main camera with LED flash and digital zoom.  Video recording capabilities unspecified.",
+                    "Features": []
+                },
+                "Front Camera": {
+                    "Description": "Single 5MP main camera. Video recording capabilities and features unspecified.",
+                    "Features": []
+                }
+            },
+            "Design and Display": {
+                "Display": {
+                    "Size": "5.5 inches (13.97 cm)",
+                    "Resolution": "480 x 960 pixels (195ppi)",
+                    "Type": "IPS LCD",
+                    "Notch": "Waterdrop notch display"
+                },
+                "Other": {
+                    "Touchscreen": "Yes, Capacitive Touchscreen, Multi-touch",
+                    "Design_Details": "Unspecified"
+                }
+            },
+            "Battery and Performance": {
+                "Battery": {
+                    "Capacity": "4000 mAh",
+                    "Type": "Li-ion",
+                    "Charging": "Unspecified charging capabilities (no fast charging or wireless charging mentioned)"
+                },
+                "Performance": {
+                    "Processor": "Quad-core 1.3GHz (Specific Chipset, GPU and Architecture details are missing)",
+                    "RAM": "2 GB",
+                    "Storage": "16 GB internal storage, expandable up to 64 GB via microSD card"
+                }
+            }
+        },
+        {
+            "Design and Display": {
+                "Screen Size": "5.0 inches (12.7 cm)",
+                "Resolution": "720 x 1280 pixels",
+                "Pixel Density": "294ppi",
+                "Display Type": "IPS LCD",
+                "Dimensions": "145.9mm x 71.4mm x 8.5mm",
+                "Weight": "137g",
+                "Colour Options": [
+                    "Black",
+                    "Blue",
+                    "Red",
+                    "Yellow"
+                ]
+            },
+            "Camera and Storage": {
+                "Rear Camera": {
+                    "Resolution": "8 MP",
+                    "Features": [
+                        "Auto Flash",
+                        "Auto Focus",
+                        "Continuous Shooting",
+                        "Digital image stabilization",
+                        "Exposure compensation",
+                        "Face detection",
+                        "Geo tagging",
+                        "High Dynamic Range mode (HDR)",
+                        "ISO control",
+                        "PureCel Sensor",
+                        "Touch to focus",
+                        "White balance presets"
+                    ],
+                    "Video Recording": "1920x1080@30fps",
+                    "Flash": "LED Flash"
+                },
+                "Front Camera": {
+                    "Resolution": "2 MP",
+                    "Features": [
+                        "Fixed Focus"
+                    ]
+                },
+                "Internal Storage": "8 GB",
+                "External Storage": "Up to 32 GB via MicroSD Card"
+            }
+        },
+        {
+            "Design and Display": {
+                "Size": "6.22 inches (15.8 cm)",
+                "Resolution": "720 x 1520 pixels",
+                "Pixel Density": "270ppi",
+                "Type": "IPS LCD, 2.5D Curved Glass",
+                "Design": "Waterdrop notch display",
+                "Screen Protection": "Corning Gorilla Glass v5",
+                "Color Options": [
+                    "Midnight Grey",
+                    "Sea Blue",
+                    "Sky White"
+                ]
+            }
+        },
+        {
+            "Battery and Performance": {
+                "Battery Capacity": "5000 mAh Li-Polymer battery with 100% charge in 62 minutes (fast charging)",
+                "Processor": "MediaTek Dimensity 810 MT6833 (2 x 2.4GHz Cortex A76 + 6 x 2GHz Cortex A55)",
+                "RAM": "4GB",
+                "Storage": "128GB"
+            },
+            "Design and Display": {
+                "Display Size": "6.6 inches (16.76 cm) IPS LCD",
+                "Resolution": "1080 x 2400 pixels (399ppi)",
+                "Refresh Rate": "90Hz",
+                "Design Features": "Punch-hole display,  IP53 splash proof",
+                "Dimensions": "163.5mm x 75.7mm x 8.7mm (195g)",
+                "Colors": [
+                    "Mysterious Black",
+                    "Milky Way Blue",
+                    "Mint Green"
+                ]
+            }
+        },
+        {
+            "Battery and Performance": {
+                "Battery Capacity": "3349 mAh",
+                "Battery Type": "Li-ion",
+                "Wireless Charging": "Yes",
+                "Fast Charging": "Yes, 50% in 30 minutes",
+                "Processor": "Apple A16 Bionic",
+                "RAM": "6 GB"
+            },
+            "Cameras": {
+                "Rear Camera": {
+                    "Type": "Dual",
+                    "Main Lens": "48 MP, f/1.6, Wide Angle",
+                    "Ultrawide Lens": "12 MP, f/2.4",
+                    "Features": [
+                        "PDAF",
+                        "OIS",
+                        "10x Digital Zoom",
+                        "Dual-color LED Flash"
+                    ]
+                },
+                "Front Camera": {
+                    "Type": "Single",
+                    "Resolution": "12 MP, f/1.9, Wide Angle",
+                    "Features": [
+                        "Retina Flash",
+                        "Auto Focus",
+                        "Auto Image Stabilization"
+                    ]
+                },
+                "Video Recording": "Up to 4K at 24/30 fps (Front and Rear)"
+            },
+            "Design and Display": {
+                "Display Size": "6.1 inches",
+                "Display Type": "Super Retina XDR Display (OLED)",
+                "Resolution": "1179 x 2556 pixels",
+                "Refresh Rate": "60Hz",
+                "Design": "Punch-hole display",
+                "Water Resistance": "IP68",
+                "Dimensions": "147.6mm x 71.6mm x 7.8mm",
+                "Weight": "171g",
+                "Colors": [
+                    "Black",
+                    "Blue",
+                    "Green",
+                    "Pink",
+                    "Yellow"
+                ]
+            }
+        },
+        {
+            "Software and Connectivity": {
+                "Operating System": "Android 8.1 (Oreo)",
+                "Network": [
+                    "2G",
+                    "3G",
+                    "4G (compatible with India)",
+                    "VoLTE"
+                ],
+                "SIM card slots": "Dual SIM",
+                "Wi-Fi": "Wi-Fi 802.11, b/g/n, Mobile Hotspot",
+                "Bluetooth": "Bluetooth",
+                "GPS": "Yes with A-GPS",
+                "Connectivity": [
+                    "2G Bands: GSM 1800, 900 MHz",
+                    "3G Bands: UMTS 1900, 900 MHz",
+                    "4G Bands: TD-LTE 2300(band 40), FD-LTE 1800(band 3)"
+                ]
+            },
+            "Battery and Performance": {
+                "Battery Capacity": "4000 mAh",
+                "Battery Type": "Li-Polymer",
+                "RAM": "4 GB",
+                "Internal Storage": "32 GB",
+                "Expandable Storage": "Up to 32 GB via microSD",
+                "CPU": [
+                    "4 x 1.3GHz"
+                ]
+            },
+            "Design and Display": {
+                "Display Size": "6.26 inches (15.9 cm)",
+                "Resolution": "480 x 960 pixels",
+                "Pixel Density": "171ppi",
+                "Display Type": "TFT",
+                "Design Features": "Notch Display",
+                "Colors": [
+                    "Blue",
+                    "Purple"
+                ]
+            }
+        },
+        {
+            "Design and Display": {
+                "Screen Size": "5.45 inches (13.84 cm)",
+                "Resolution": "480 x 960 pixels",
+                "Pixel Density": "197 ppi",
+                "Type": "TFT",
+                "Touchscreen": "Yes, Capacitive Touchscreen, Multi-touch",
+                "Design Features": "Notch Display"
+            },
+            "Cameras": {
+                "Rear Camera": {
+                    "Type": "Single",
+                    "Resolution": "8 MP",
+                    "Flash": "LED Flash",
+                    "Features": "Digital Zoom"
+                },
+                "Front Camera": {
+                    "Type": "Single",
+                    "Resolution": "5 MP"
+                }
+            }
+        },
+        {
+            "Software and Connectivity": {
+                "Operating System": "Android 6.0 (Marshmallow)",
+                "Network": [
+                    "2G",
+                    "3G",
+                    "4G (compatible with India)",
+                    "VoLTE"
+                ],
+                "SIM card slots": "Dual SIM",
+                "Wi-Fi": "Wi-Fi 802.11, b/g/n, Mobile Hotspot",
+                "Bluetooth": "Bluetooth",
+                "GPS": "Yes with A-GPS",
+                "Charging Port": "microUSB"
+            },
+            "Design and Display": {
+                "Dimensions": "150mm x 72mm x 9mm",
+                "Weight": "187g",
+                "Size": "5.5 inches (13.97 cm)",
+                "Resolution": "480 x 1014 pixels",
+                "Pixel Density": "204ppi",
+                "Type": "IPS LCD",
+                "Design": "Waterdrop notch display",
+                "Colour Options": [
+                    "Blue"
+                ]
+            }
+        },
+        {
+            "Design and Display": {
+                "Display Size": "2.4 inches (6.1 cm)",
+                "Resolution": "240 x 320 pixels",
+                "Pixel Density": "167ppi",
+                "Touchscreen": "No",
+                "Display Type": "TFT",
+                "Dimensions": "134mm x 56.4mm x 13.8mm",
+                "Weight": "58g",
+                "Color Options": [
+                    "Black"
+                ]
+            },
+            "Software and Platform": {
+                "Operating System": null,
+                "Custom UI": null
+            }
+        }
+    ]
+}
