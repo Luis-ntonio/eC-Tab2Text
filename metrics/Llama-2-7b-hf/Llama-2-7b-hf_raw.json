@@ -229,5 +229,43 @@
     },
     "correctness": 32.182906913445834,
     "faithfullness": 37.68478260869565,
-    "fluency": 32.472766884531595
+    "fluency": 32.472766884531595,
+    "bertscore": {
+        "Design and Display": [
+            69.73,
+            1081
+        ],
+        "Battery and Connectivity": [
+            69.09,
+            284
+        ],
+        "Cameras": [
+            67.77,
+            742
+        ],
+        "Performance and Battery": [
+            58.97,
+            177
+        ],
+        "Software and Connectivity": [
+            63.05,
+            691
+        ],
+        "Battery and Performance": [
+            64.11,
+            541
+        ],
+        "Camera and Storage": [
+            70.71,
+            252
+        ],
+        "Software and Platform": [
+            68.46,
+            51
+        ],
+        "Total": [
+            66.49,
+            8
+        ]
+    }
 }
