@@ -1,6 +1,6 @@
-# TEComm: E-Commerce Attribute-Specific Review Generation
+# eC-Tab2TExt: E-Commerce Attribute-Specific Review Generation
 
-TEComm is a project focused on leveraging Large Language Models (LLMs) for generating attribute-specific product reviews from structured tabular data, particularly for the e-commerce domain. This repository contains all the necessary components, including dataset processing, model training, evaluation, and output generation.
+eC-Tab2TExt is a project focused on leveraging Large Language Models (LLMs) for generating attribute-specific product reviews from structured tabular data, particularly for the e-commerce domain. This repository contains all the necessary components, including dataset processing, model training, evaluation, and output generation.
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ TEComm is a project focused on leveraging Large Language Models (LLMs) for gener
 
 ## Project Overview
 
-The project aims to address the gap in domain-specific datasets for e-commerce by introducing TEComm, a dataset tailored for attribute-specific text generation tasks. This dataset facilitates the transformation of structured product specifications into human-like reviews.
+The project aims to address the gap in domain-specific datasets for e-commerce by introducing eC-Tab2TExt, a dataset tailored for attribute-specific text generation tasks. This dataset facilitates the transformation of structured product specifications into human-like reviews.
 
 ### Key Highlights
 
@@ -58,8 +58,8 @@ The project aims to address the gap in domain-specific datasets for e-commerce b
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/TEComm.git
-   cd TEComm
+   git clone https://github.com/your-repo/eC-Tab2TExt.git
+   cd eC-Tab2TExt
    ```
 2. Install dependencies:
    ```bash
