@@ -26,7 +26,7 @@ The project aims to address the gap in domain-specific datasets for e-commerce b
 
 - **Dataset:** Structured tabular data sourced from e-commerce platforms.
 - **Models:** Llama2-chat 7B, StructLM 7B, and Mistral_Instruct 7B.
-- **Evaluation:** Metrics like BLEU, ROUGE, METEOR, and human-assessed fluency.
+- **Evaluation:** Metrics Bleu, Rouge-1, Rouge-L, BertScore, Fluency, Correctness and Faithfulness.
 - **Applications:** Product reviews, scalable to other domains (e.g., healthcare, finance).
 
 ---
@@ -92,7 +92,7 @@ Train LLMs on the prepared dataset using the provided notebooks:
 Evaluate model outputs using:
 - `experiments/evaluating_metrics.ipynb`
 
-Metrics include BLEU, ROUGE, METEOR, and human-assessed metrics.
+Metrics includes Bleu, Rouge-1, Rouge-L, BertScore, Fluency, Correctness and Faithfulness.
 
 ### Zero-Shot Testing
 
