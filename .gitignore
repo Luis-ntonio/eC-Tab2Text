@@ -3,18 +3,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-#Folders to exclude
-results/
-StructLM-7B-luis/
-StructLM-7B-luis_tokenizer/
-Mistral-7B-Instruct-v0.3-luis_tokenizer/
-Mistral-7B-Instruct-v0.3-luis/
-Llama-2-7b-chat-hf-luis/
-Llama-2-7b-chat-hf-luis_tokenizer/
-Llama-2-7b-hf-luis_tokenizer/
-Llama-2-7b-hf-luis/
-qtsumm/
-tokenizers/
 # C extensions
 *.so
 
